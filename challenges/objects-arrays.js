@@ -87,6 +87,8 @@ Name email@example.com
 
 Log the result of your new array. */
 const contactInfo = [];
+graduates.forEach(university => contactInfo.push(`${university.first_name} ${university.email}`));
+
 console.log(contactInfo);
 
 
@@ -141,7 +143,7 @@ The zoos are concenred about animals with a lower population count. Find out whi
 
 */
 //const lowerPopulation = [];
-const lowerPopulation =zooAnimals.filter(animalName => animalName.population < 5)
+const lowerPopulation = zooAnimals.filter(animalName => animalName.population < 5)
 console.log(lowerPopulation);
 
 /* Request 4: .reduce() 

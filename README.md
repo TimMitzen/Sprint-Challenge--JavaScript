@@ -35,7 +35,7 @@ forEach doesn't return anything, where map does.
 Method is a function, but not all functions are methods. Methods are functions that belong to an object.
 
 3. What is closure?
-Is basically functions look outside, if something isn't defined inside a function it goes outside the function and looks for what is defined
+Is basically functions look outside, if something isn't defined inside a function it goes outside the function and looks for what is defined. Also scopes can reach up but not reach down.
 4. Describe the four rules of the 'this' keyword.
 1. Global binding - value of everything in the global scope
 2. Implicit binding - are methods using this keyword. A method inside an object. Anything left get this.
